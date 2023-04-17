@@ -21,13 +21,13 @@ const NavMobile = ({ navMobile }) => {
           );
         })}
           <div className='flex gap-2'>
-            <a href='#' target='blank'>
+            <a href='https://www.instagram.com/hopefitness_academia/' target='blank'>
              <ion-icon name="logo-instagram" ></ion-icon>
             </a>
-            <a  href='#' target='blank'>
+            <a  href='https://www.facebook.com/hope.fitnes.9' target='blank'>
               <ion-icon name="logo-facebook" ></ion-icon>
             </a>
-            <a  href='#' target='blank'>
+            <a  href='https://api.whatsapp.com/send?phone=5511912602588' target='blank'>
               <ion-icon name="logo-whatsapp" ></ion-icon>
             </a>
           </div>
@@ -37,5 +37,5 @@ const NavMobile = ({ navMobile }) => {
     </nav>
   );
 };
-
+ 
 export default NavMobile;
