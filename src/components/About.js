@@ -4,7 +4,6 @@ import React from 'react';
 import { about } from '../data';
 
 // import icons
-import { IoIosArrowDroprightCircle } from 'react-icons/io';
 
 const About = () => {
   // destructure about data

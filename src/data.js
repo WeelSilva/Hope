@@ -9,8 +9,6 @@ import FitnessImg from '../src/assets/img/workouts/fitness.png';
 import BattleRopeImg from '../src/assets/img/workouts/battle-rope.png';
 import joinImg from '../src/assets/img/join/woman.png'
 
-import CommunityImg3 from '../src/assets/img/community/img3.png';
-import CommunityImg4 from '../src/assets/img/community/img4.png';
 
 import je from '../src/assets/img/community/je.jpg';
 import erika from '../src/assets/img/community/erika.jpg';
