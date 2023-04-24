@@ -19,7 +19,10 @@ const Footer = () => {
             <img className='' src={logo} alt='' />
           </a>
 
-        <div className='flex items-center justify-center sm:flex-row space-x-4 '>
+        <div className='flex flex-col items-center justify-center sm:flex-row space-x-4 '>
+          
+          
+
           <a href='https://www.instagram.com/hopefitness_academia/' target='blank'>
             <ion-icon name="logo-instagram" ></ion-icon>
           </a>
@@ -32,8 +35,14 @@ const Footer = () => {
         </div>
 
         {/* copyright text */}
+        <div>
+            <strong className='font-bold text-zinc-100'>Academia Hope Fitness</strong>
+            <p>Rua: Beija flor, 58 - Vargem Grande - São Paulo - SP  </p>
+            <p className='mb-2'>Telefone: 011 0000 0000</p>
+
+          <span className='text-neutral-300 text-sm'>{new Date().getFullYear()} &copy;Elielson. All Rights Reserved.</span>
+        </div>
         
-        <span className='text-neutral-300 text-sm'>{new Date().getFullYear()} &copy;Elielson. All Rights Reserved.</span>
       </div>
     </footer>
   );

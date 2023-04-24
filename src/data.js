@@ -112,18 +112,18 @@ export const pricing = {
       ],
       delay: 800,
     },
-    {
-      name: 'Elite',
-      price: '49',
-      list: [
-        { name: 'unlimited gym access' },
-        { name: 'all training programs' },
-        { name: 'free fitness consultation' },
-        { name: 'personal trainer' },
-        { name: '50% off drinks' },
-      ],
-      delay: 1000,
-    },
+    // {
+    //   name: 'Elite',
+    //   price: '49',
+    //   list: [
+    //     { name: 'unlimited gym access' },
+    //     { name: 'all training programs' },
+    //     { name: 'free fitness consultation' },
+    //     { name: 'personal trainer' },
+    //     { name: '50% off drinks' },
+    //   ],
+    //   delay: 1000,
+    // },
   ],
 };
 
@@ -172,32 +172,52 @@ export const faq = {
   title: 'FAQ',
   accordions: [
     {
-      question: 'How can I book a workout class?',
+      question: 'Quais são os horários de funcionamento da academia?',
       answer:
         'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
     },
     {
-      question: 'Can I pay by cash for my membership?',
+      question: 'Quais são os tipos de planos disponíveis na academia?',
       answer:
         'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
     },
     {
-      question: 'What age do I need to be to join?',
+      question: 'Qual é a política de cancelamento de inscrição?',
       answer:
         'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
     },
     {
-      question: 'Are there any lockers?',
+      question: 'A academia oferece aulas de grupo?',
       answer:
         'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
     },
     {
-      question: 'How do I cancel my membership?',
+      question: 'á treinadores pessoais disponíveis para ajudar os membros?',
       answer:
         'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
     },
     {
-      question: 'Is there water available at the gym?',
+      question: 'A academia oferece nutricionistas ou programas de dieta?',
+      answer:
+        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
+    },
+    {
+      question: 'Qual é a idade mínima para se inscrever na academia?',
+      answer:
+        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
+    },
+    {
+      question: 'Como faço para renovar meu plano de inscrição?',
+      answer:
+        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
+    },
+    {
+      question: 'Há limites de tempo para usar certos equipamentos na academia?',
+      answer:
+        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
+    },
+    {
+      question: 'A academia oferece Wi-Fi gratuito para os membros?',
       answer:
         'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
     },
