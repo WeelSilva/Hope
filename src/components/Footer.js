@@ -7,9 +7,9 @@ const Footer = () => {
   // destructure footer data
   const { logo } = footer;
   return (
-    <footer className='bg-neutral-500 h-[125px] md:h-[195px] px-[20px]'>
+    <footer className='bg-neutral-500 h-[260px] sm:h-[195px] px-[20px] py-[10px]'>
       <div
-        className='container mx-auto h-full flex justify-between gap-1 items-center md:items-end md:pb-[50px]'
+        className='container mx-auto h-full flex flex-col sm:flex-row justify-between gap-1 items-center md:items-end md:pb-[50px] sm:items-center'
         data-aos='fade-up'
         data-aos-delay='200'
       >
@@ -19,10 +19,8 @@ const Footer = () => {
             <img className='' src={logo} alt='' />
           </a>
 
-        <div className='flex flex-col items-center justify-center sm:flex-row space-x-4 '>
+        <div className='flex flex-row  items-center justify-center sm:flex-row space-x-4 '>
           
-          
-
           <a href='https://www.instagram.com/hopefitness_academia/' target='blank'>
             <ion-icon name="logo-instagram" ></ion-icon>
           </a>
@@ -35,8 +33,8 @@ const Footer = () => {
         </div>
 
         {/* copyright text */}
-        <div>
-            <strong className='font-bold text-zinc-100'>Academia Hope Fitness</strong>
+        <div className='text-sm sm:text-base'>
+            <strong className='font-bold text-zinc-100 text-base'>Academia Hope Fitness</strong>
             <p>Rua: Beija flor, 58 - Vargem Grande - São Paulo - SP  </p>
             <p className='mb-2'>Telefone: 011 0000 0000</p>
 
