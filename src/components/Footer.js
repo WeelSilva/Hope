@@ -39,6 +39,7 @@ const Footer = () => {
             <p className='mb-2'>Telefone: 011 0000 0000</p>
 
           <span className='text-neutral-300 text-sm'>{new Date().getFullYear()} &copy;Elielson. All Rights Reserved.</span>
+          
         </div>
         
       </div>

@@ -14,6 +14,7 @@ import Community from './components/Community';
 import Faq from './components/Faq';
 
 import Footer from './components/Footer';
+import WhatsButton from './components/WhatsButton';
 
 const App = () => {
   // aos initialization
@@ -31,6 +32,7 @@ const App = () => {
       <Community />
       <Faq />
       <Footer />
+      <WhatsButton />
     </div>
   );
 };

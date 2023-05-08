@@ -38,7 +38,7 @@ const Header = () => {
       <Nav />
 
       {/* buttons - initally hidden - show in desktop mode */}
-      <div className='hidden lg:flex space-x-4 '>
+      <div className='hidden lg:flex space-x-4'>
         <a href='https://www.instagram.com/hopefitness_academia/' target='blank'>
            <ion-icon name="logo-instagram" ></ion-icon>
         </a>
