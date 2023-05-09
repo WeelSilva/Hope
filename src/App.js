@@ -19,8 +19,8 @@ import WhatsButton from './components/WhatsButton';
 const App = () => {
   // aos initialization
   Aos.init({
-    duration: 2500,
-    delay: 400,
+    duration: 2000,
+    delay: 200,
   });
   return (
     <div className='max-w-[1440px] mx-auto bg-page overflow-hidden relative'>

@@ -27,10 +27,12 @@ export const header = {
 };
 
 export const nav = [
-  { name: 'Início', href: '/' },
-  { name: 'Sobre', href: '/' },
-  { name: 'Treinos', href: '/' },
-  { name: 'Planos', href: '/' },
+  { name: 'Início', href: '#inicio' },
+  { name: 'Sobre', href: '#sobre' },
+  { name: 'Treinos', href: '#treino'},
+  { name: 'Planos', href: '#planos' },
+  { name: 'Equipe', href: '#profissionais' },
+  { name: 'Perguntas', href: '#faq' },
 ];
 
 export const banner = {
@@ -58,32 +60,32 @@ export const workouts = {
   programs: [
     {
       image: ResistanceImg,
-      name: 'Resistance',
+      name: 'Musculação',
     },
     {
       image: BoxingImg,
-      name: 'Boxing',
+      name: 'Treinamento Funcional',
     },
     {
       image: BodyPumpImg,
-      name: 'Body Pump',
+      name: 'Afromix',
     },
     {
       image: YogaImg,
-      name: 'Yoga',
+      name: 'Jump',
     },
     {
       image: FullBodyImg,
-      name: 'Full Body',
+      name: 'Muay thai',
     },
-    {
-      image: FitnessImg,
-      name: 'Fitness',
-    },
-    {
-      image: BattleRopeImg,
-      name: 'Battle Rope',
-    },
+    // {
+    //   image: FitnessImg,
+    //   name: 'Fitness',
+    // },
+    // {
+    //   image: BattleRopeImg,
+    //   name: 'Battle Rope',
+    // },
   ],
 };
 
@@ -129,7 +131,7 @@ export const pricing = {
 
 export const community = {
   icon: CommunityIcn,
-  title: 'Instrutores',
+  title: 'Equipe Hope',
   testimonials: [
     {
       image: je,
