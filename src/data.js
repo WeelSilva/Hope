@@ -5,8 +5,6 @@ import BoxingImg from '../src/assets/img/workouts/boxing.png';
 import BodyPumpImg from '../src/assets/img/workouts/body-pump.png';
 import YogaImg from '../src/assets/img/workouts/yoga.png';
 import FullBodyImg from '../src/assets/img/workouts/full-body.png';
-import FitnessImg from '../src/assets/img/workouts/fitness.png';
-import BattleRopeImg from '../src/assets/img/workouts/battle-rope.png';
 import joinImg from '../src/assets/img/join/woman.png'
 
 
@@ -37,7 +35,7 @@ export const nav = [
 
 export const banner = {
   titlePart1: 'Obtenha a melhor parte do seu dia',
-  titlePart2: '– você se encaixa aqui.',
+  titlePart2: '- você se encaixa aqui.',
   subtitle:
     'Oferecemos um treino sério, mas dentro de um espaço divertido, amigável e seguro.',
   textBtn: 'Join Now',
@@ -48,9 +46,9 @@ export const about = {
   icon: UsersIcn,
   title: 'Sobre',
   subtitle1:
-    'Somos diferenciados por nossa atmosfera motivadora inigualável, equipe experiente e equipamentos de exercícios de primeira linha, que ajudam nossos membros a atingir suas metas individuais de condicionamento físico.',
+    'Exercemos um trabalho com transparência, honestidade e coerência, respeitando as diferenças a dignidade de nossos alunos. Ter comprometimento e dá suporte necessário a todos.',
   subtitle2:
-    'A força de nossa identidade sincera é utilizada para inspirar todas as pessoas que pisam em nossa academia a melhorarem.',
+    'Proporcionar um espaço e atendimento de ótima qualidade, oferecendo saúde, bem-estar e motivação em um ambiente agradável e alegre, que alunos se sinta em casa.',
   link: 'Join Now',
 };
 
@@ -164,7 +162,7 @@ export const join = {
   image: joinImg,
   title: 'Wanna join & have fun?',
   subtitle:
-    'We’ll keep you updated on the things you need to know about Gymme. Nothing more, nothing less.',
+    'Well keep you updated on the things you need to know about Gymme. Nothing more, nothing less.',
   btnText: 'Join now',
 };
 

@@ -10,12 +10,12 @@ const Footer = () => {
     <footer className='bg-neutral-500 h-[260px] sm:h-[195px] px-[20px] py-[10px]'>
       <div
         className='container mx-auto h-full flex flex-col sm:flex-row justify-between gap-1 items-center md:items-end md:pb-[50px] sm:items-center'
-        data-aos='fade-up'
-        data-aos-delay='200'
+        // data-aos='fade-up'
+        // data-aos-delay='100'
       >
         {/* logo */}
 
-          <a href='#'>
+          <a href='/#'>
             <img className='' src={logo} alt='' />
           </a>
 
@@ -36,7 +36,7 @@ const Footer = () => {
         <div className='text-sm sm:text-base'>
             <strong className='font-bold text-zinc-100 text-base'>Academia Hope Fitness</strong>
             <p>Rua: Beija flor, 58 - Vargem Grande - São Paulo - SP  </p>
-            <p className='mb-2'>Telefone: 011 0000 0000</p>
+            
 
           <span className='text-neutral-300 text-sm'>{new Date().getFullYear()} &copy;Elielson. All Rights Reserved.</span>
           
