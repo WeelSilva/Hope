@@ -7,16 +7,16 @@ const Footer = () => {
   // destructure footer data
   const { logo } = footer;
   return (
-    <footer className='bg-neutral-500 h-[260px] sm:h-[195px] px-[20px] py-[10px]'>
+    <footer className='bg-neutral-500 h-[260px] sm:h-[195px] px-[20px] py-[10px] '>
       <div
-        className='container mx-auto h-full flex flex-col sm:flex-row justify-between gap-1 items-center md:items-end md:pb-[50px] sm:items-center'
+        className='container mb-4 mx-auto h-full flex flex-col sm:flex-row justify-between gap-1 items-center md:items-end md:pb-[50px] sm:items-center'
         // data-aos='fade-up'
         // data-aos-delay='100'
       >
         {/* logo */}
 
           <a href='/#'>
-            <img className='' src={logo} alt='' />
+            <img className='w-[100px] h-[65px]' src={logo} alt='' />
           </a>
 
         <div className='flex flex-row  items-center justify-center sm:flex-row space-x-4 '>
@@ -33,13 +33,13 @@ const Footer = () => {
         </div>
 
         {/* copyright text */}
-        <div className='text-sm sm:text-base'>
+        <div className='text-sm sm:text-base flex flex-col content-between '>
             <strong className='font-bold text-zinc-100 text-base'>Academia Hope Fitness</strong>
-            <p>Rua: Beija flor, 58 - Vargem Grande - São Paulo - SP  </p>
+            <p className='mb-4'>Rua: Beija flor, 58 - Vargem Grande - São Paulo - SP  </p>
             
-
-          <span className='text-neutral-300 text-sm'>{new Date().getFullYear()} &copy;Elielson. All Rights Reserved.</span>
+            <span className='text-neutral-300 text-sm'>{new Date().getFullYear()} &copy;Elielson. All Rights Reserved.</span>
           
+         
         </div>
         
       </div>

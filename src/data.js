@@ -62,7 +62,7 @@ export const workouts = {
     },
     {
       image: BoxingImg,
-      name: 'Treinamento Funcional',
+      name: 'Funcional',
     },
     {
       image: BodyPumpImg,
