@@ -1,11 +1,12 @@
 // images
 import LogoHope from '../src/assets/img/header/hope.png'
-import ResistanceImg from '../src/assets/img/workouts/resistance.png';
-import BoxingImg from '../src/assets/img/workouts/boxing.png';
-import BodyPumpImg from '../src/assets/img/workouts/body-pump.png';
-import YogaImg from '../src/assets/img/workouts/yoga.png';
-import FullBodyImg from '../src/assets/img/workouts/full-body.png';
 import joinImg from '../src/assets/img/join/woman.png'
+
+import Afromix from '../src/assets/img/workouts/afromix.jpeg'
+import Funcional from '../src/assets/img/workouts/funcional.jpeg'
+import Jump from '../src/assets/img/workouts/jump.jpeg'
+import Muaythai from '../src/assets/img/workouts/muaythai.jpeg'
+import Musculacao from '../src/assets/img/workouts/musculacao.jpeg'
 
 
 import je from '../src/assets/img/community/je.jpg';
@@ -57,58 +58,48 @@ export const workouts = {
   title: 'Programas de treinamento',
   programs: [
     {
-      image: ResistanceImg,
+      image: Musculacao,
       name: 'Musculação',
     },
     {
-      image: BoxingImg,
+      image: Funcional,
       name: 'Funcional',
     },
     {
-      image: BodyPumpImg,
+      image: Afromix,
       name: 'Afromix',
     },
     {
-      image: YogaImg,
+      image: Jump,
       name: 'Jump',
     },
     {
-      image: FullBodyImg,
+      image: Muaythai,
       name: 'Muay thai',
     },
-    // {
-    //   image: FitnessImg,
-    //   name: 'Fitness',
-    // },
-    // {
-    //   image: BattleRopeImg,
-    //   name: 'Battle Rope',
-    // },
   ],
 };
 
 export const pricing = {
   icon: PriceIcn,
-  title: 'Planos',
+  title: 'Planos e Convênios',
   plans: [
     {
-      name: 'Básico',
-      price: '20',
+      name: 'A partir de',
+      price: '49,99',
       list: [
-        { name: 'unlimited gym access' },
-        { name: '1 training programs' },
-        { name: 'free fitness consultation' },
+        { name: 'Taxa de Matrícula' },
+        { name: 'App de Treino' },
+        { name: 'Avaliação Física' },
       ],
       delay: 600,
     },
     {
-      name: 'Premium',
-      price: '35',
+      name: 'Convênios',
+      price: '',
       list: [
-        { name: 'unlimited gym access' },
-        { name: '5 training programs' },
-        { name: 'free fitness consultation' },
-        { name: 'personal trainer' },
+        { name: 'Total Pass' },
+        { name: 'Gympass' },
       ],
       delay: 800,
     },

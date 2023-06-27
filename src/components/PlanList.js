@@ -35,7 +35,7 @@ const PlanList = ({ plans }) => {
                       currentIndex === index
                         ? 'bg-white text-neutral-500'
                         : 'bg-neutral-500 text-white'
-                    } h-[26px] font-primary text-sm font-semibold max-w-min mx-auto px-[14px] flex items-center justify-center mb-8`}
+                    } h-[26px] font-primary text-sm font-semibold  mx-auto px-[14px] flex items-center justify-center mb-8 `}
                   >
                     {name}
                   </div>
@@ -43,9 +43,9 @@ const PlanList = ({ plans }) => {
                   <div className='text-[40px] lg:text-[50px] font-primary font-extrabold text-center flex flex-col items-center justify-center'>
                     <div className='leading-none'>
                       <span className='tracking-[0.1px]'>{price}</span>
-                      <span className='text-[30px] font-extrabold'>$</span>
+                      {/* <span className='text-[30px] font-extrabold'>R$</span> */}
                     </div>
-                    <span className='text-sm font-medium'>/month</span>
+                    <span className='text-sm font-medium'>/mês</span>
                   </div>
                 </div>
                 {/* list & btn wrapper */}
