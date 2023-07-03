@@ -35,8 +35,8 @@ export const nav = [
 ];
 
 export const banner = {
-  titlePart1: 'Obtenha a melhor parte do seu dia',
-  titlePart2: '- você se encaixa aqui.',
+  titlePart1: 'Desafie seus limites na Academia Hope',
+  titlePart2: ' Onde a superação e a transformação se encontram para criar a melhor versão de você.',
   subtitle:
     'Oferecemos um treino sério, mas dentro de um espaço divertido, amigável e seguro.',
   textBtn: 'Join Now',
@@ -45,17 +45,19 @@ export const banner = {
 
 export const about = {
   icon: UsersIcn,
-  title: 'Sobre',
+  title: 'Bem-vindo à Academia Hope!',
   subtitle1:
-    'Exercemos um trabalho com transparência, honestidade e coerência, respeitando as diferenças a dignidade de nossos alunos. Ter comprometimento e dá suporte necessário a todos.',
+    'Nossa academia é o lugar perfeito para alcançar seus objetivos de condicionamento físico e saúde. Com equipamentos modernos e uma equipe qualificada, oferecemos treinamento personalizado e uma variedade de aulas de grupo emocionantes, como Jump, Musculação, Afromix, Funcional e Muay Thai  Seja qual for o seu nível de experiência, estamos aqui para ajudá-lo a se superar e se divertir enquanto alcança seus resultados desejados.',
   subtitle2:
-    'Proporcionar um espaço e atendimento de ótima qualidade, oferecendo saúde, bem-estar e motivação em um ambiente agradável e alegre, que alunos se sinta em casa.',
+    'Visite-nos hoje mesmo e faça parte da comunidade Hope. Transforme seus objetivos em realidade e descubra uma nova versão de si mesmo!',
+  subtitle3: 
+  "Entre em contato para mais informações ou para agendar uma visita. Estamos prontos para ajudar você a começar sua jornada rumo a uma vida mais saudável e em forma.",  
   link: 'Join Now',
 };
 
 export const workouts = {
   icon: CalendarIcn,
-  title: 'Programas de treinamento',
+  title: 'Programas de Treinamento',
   programs: [
     {
       image: Musculacao,

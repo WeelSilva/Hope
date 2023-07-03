@@ -17,14 +17,14 @@ const Banner = () => {
               data-aos-delay='500'
             >
               {titlePart1} <br />
-              <span className='text-primary-400'>{titlePart2}</span>
+              {/* <span className='text-primary-400'>{titlePart2}</span> */}
             </h1>
             <p
-              className='max-w-[415px] text-body-md lg:text-body-lg mb-8'
+              className='max-w-[415px] text-body-md lg:text-body-lg mb-8 text-primary-400'
               data-aos='fade-down'
               data-aos-delay='600'
             >
-              {subtitle}
+              {titlePart2}
             </p>
             
           

@@ -7,7 +7,7 @@ import { about } from '../data';
 
 const About = () => {
   // destructure about data
-  const { title, subtitle1, subtitle2, icon } = about;
+  const { title, subtitle1, subtitle2, subtitle3, icon } = about;
   return (
     <section id="sobre" className='py-[80px] md:py-[110px] lg:pt-[140px] lg:pb-[180px]'>
       <div className='container mx-auto px-[20px] lg:px-[135px]'>
@@ -35,6 +35,14 @@ const About = () => {
           data-aos-delay='300'
         >
           {subtitle2}
+        </p>
+
+        <p
+          className='md:text-body-md mb-8 text-justify'
+          data-aos='fade-up'
+          data-aos-delay='300'
+        >
+          {subtitle3}
         </p>
       </div>
     </section>
