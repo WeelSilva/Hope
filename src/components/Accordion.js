@@ -22,10 +22,10 @@ const Accordion = ({ accordion }) => {
         </div>
         <div
           className={`${
-            isOpen ? 'min-h-[200px] lg:min-h-[160px]' : 'min-h-0'
-          } max-h-0 overflow-hidden flex justify-center transition-all px-[30px]`}
+            isOpen ? 'min-h-[100px] lg:min-h-[60px]' : 'min-h-0'
+          } max-h-0 overflow-hidden flex justify-center transition-all px-[15px]`}
         >
-          <div className='mt-6'>{answer}</div>
+          <div className='mt-1'>{answer}</div>
         </div>
       </div>
     </div>

@@ -37,7 +37,7 @@ const Footer = () => {
             <strong className='font-bold text-zinc-100 text-base'>Academia Hope Fitness</strong>
             <p className='mb-4'>Rua: Beija flor, 58 - Vargem Grande - São Paulo - SP  </p>
             
-            <span className='text-neutral-300 text-sm'>{new Date().getFullYear()} &copy;Elielson. All Rights Reserved.</span>
+            <span className='text-neutral-300 text-sm'>{new Date().getFullYear()} &copy;Hope Fitness. All Rights Reserved.</span>
           
          
         </div>

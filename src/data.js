@@ -88,7 +88,7 @@ export const pricing = {
   plans: [
     {
       name: 'A partir de',
-      price: '49,99',
+      price: '45,00',
       list: [
         { name: 'Taxa de Matrícula' },
         { name: 'App de Treino' },
@@ -128,19 +128,19 @@ export const community = {
       image: je,
       name: 'Jefferson - personal trainer.',
       message:
-        '“Great location, great price and great, helpful people. What to want more?”',
+        '“MENSAGEM”',
     },
     {
       image: erika,
       name: 'Erika - personal trainer.',
       message:
-        '“Gymme changed my life. Not only physically but mentally as well. I’m a better mother, and all around better human being because of this gym.”',
+        '“MENSAGEM.”',
     },
     {
       image: rico,
       name: 'Ricardo - personal trainer.',
       message:
-        '“Love these workouts! Trainers are knowledgeable and motivating. Gymme is wonderful!”',
+        '“MENSAGEM”',
     },
     // {
     //   image: CommunityImg4,
@@ -167,52 +167,52 @@ export const faq = {
     {
       question: 'Quais são os horários de funcionamento da academia?',
       answer:
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
+        'Segunda a Sexta das 06:00 ás 23:00.',
     },
     {
       question: 'Quais são os tipos de planos disponíveis na academia?',
       answer:
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
+        'Bimestral 120,00 - Trimestral 175,00 - Mensal 66,00 -  Semestral 300,00 - Anual 600,00 e Três vezes na semana 45,00.',
     },
     {
       question: 'Qual é a política de cancelamento de inscrição?',
       answer:
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
+        'Sem taxa ou multa, o aluno pode cancelar quando quiser.',
     },
     {
       question: 'A academia oferece aulas de grupo?',
       answer:
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
+        'Jump, Funcional e Muay Thai.',
     },
     {
       question: 'á treinadores pessoais disponíveis para ajudar os membros?',
       answer:
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
+        'Sim! contamos com uma equipe totalmente qualificada.',
     },
     {
       question: 'A academia oferece nutricionistas ou programas de dieta?',
       answer:
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
+        'Apenas parceria, não temos profissionais no quadro.',
     },
     {
       question: 'Qual é a idade mínima para se inscrever na academia?',
       answer:
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
+        '12 anos.',
     },
     {
       question: 'Como faço para renovar meu plano de inscrição?',
       answer:
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
+        'Realizando o pagamento na recepção .',
     },
     {
       question: 'Há limites de tempo para usar certos equipamentos na academia?',
       answer:
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
+        'Não.',
     },
     {
       question: 'A academia oferece Wi-Fi gratuito para os membros?',
       answer:
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
+        'Sim.',
     },
   ],
 };
