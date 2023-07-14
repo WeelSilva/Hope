@@ -11,7 +11,12 @@ import Musculacao from '../src/assets/img/workouts/musculacao.jpeg'
 
 import je from '../src/assets/img/community/je.jpg';
 import erika from '../src/assets/img/community/erika.jpg';
-import rico from '../src/assets/img/community/rico.jpg';
+import rico from '../src/assets/img/community/rico.jpeg';
+import diogo from '../src/assets/img/community/diogo.jpeg';
+import diego from '../src/assets/img/community/diego.jpeg';
+
+
+
 // icons
 import UsersIcn from '../src/assets/img/about/icons/users-icn.svg';
 import CalendarIcn from '../src/assets/img/workouts/icons/calendar.svg';
@@ -128,19 +133,31 @@ export const community = {
       image: je,
       name: 'Jefferson - personal trainer.',
       message:
-        '“MENSAGEM”',
+        '',
     },
     {
       image: erika,
       name: 'Erika - personal trainer.',
       message:
-        '“MENSAGEM.”',
+        '.”',
     },
     {
       image: rico,
       name: 'Ricardo - personal trainer.',
       message:
-        '“MENSAGEM”',
+        '',
+    },
+    {
+      image: diogo,
+      name: 'Diogo - personal trainer.',
+      message:
+        '',
+    },
+    {
+      image: diego,
+      name: 'Diego - personal trainer.',
+      message:
+        '',
     },
     // {
     //   image: CommunityImg4,
@@ -167,7 +184,7 @@ export const faq = {
     {
       question: 'Quais são os horários de funcionamento da academia?',
       answer:
-        'Segunda a Sexta das 06:00 ás 23:00.',
+        'Segunda a Sexta das 06:00 ás 23:00 e Sábados e Feriados das 08hrs ás 13hrs',
     },
     {
       question: 'Quais são os tipos de planos disponíveis na academia?',

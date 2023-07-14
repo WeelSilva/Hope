@@ -35,7 +35,7 @@ const Footer = () => {
         {/* copyright text */}
         <div className='text-sm sm:text-base flex flex-col content-between '>
             <strong className='font-bold text-zinc-100 text-base'>Academia Hope Fitness</strong>
-            <p className='mb-4'>Rua: Beija flor, 58 - Vargem Grande - São Paulo - SP  </p>
+            <p className='mb-4'>Rua: Beija flor, 54 - Vargem Grande - São Paulo - SP  </p>
             
             <span className='text-neutral-300 text-sm'>{new Date().getFullYear()} &copy;Hope Fitness. All Rights Reserved.</span>
           
