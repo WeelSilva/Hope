@@ -1,17 +1,17 @@
 import React from 'react';
 
 // import data
-import { community } from '../data';
+import { environment } from '../data';
 
 // import components
-import CommunitySlider from './CommunitySlider';
+import EnvironmentSlider from './EnvironmentSlider';
 
-const Community = () => {
+const Environment = () => {
   // destructure community data
-  const { icon, title, testimonials } = community;
+  const { icon, title, testimonials } = environment;
   return (
-    <section id="profissionais" className='section relative '>
-      <div className='mb-10 container mx-auto md:mb-0'>
+    <section id="profissionais" className='section relative mt-96 md:mt-24'>
+      <div className='container mx-auto'>
         <div className='flex'>
           {/* section title */}
           <div
@@ -32,7 +32,7 @@ const Community = () => {
             data-aos-offset='200'
             data-aos-delay='300'
           >
-            <CommunitySlider testimonials={testimonials} />
+            <EnvironmentSlider testimonials={testimonials} />
           </div>
         </div>
       </div>
@@ -40,4 +40,4 @@ const Community = () => {
   );
 };
 
-export default Community;
+export default Environment;

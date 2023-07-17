@@ -12,6 +12,7 @@ import Workouts from './components/Workouts';
 import Pricing from './components/Pricing';
 import Community from './components/Community';
 import Faq from './components/Faq';
+import Environment from './components/Environment';
 
 import Footer from './components/Footer';
 import WhatsButton from './components/WhatsButton';
@@ -30,6 +31,7 @@ const App = () => {
       <Workouts />
       <Pricing />
       <Community />
+      <Environment />
       <Faq />
       <Footer />
       <WhatsButton />

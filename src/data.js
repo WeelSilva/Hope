@@ -2,19 +2,32 @@
 import LogoHope from '../src/assets/img/header/hope.png'
 import joinImg from '../src/assets/img/join/woman.png'
 
+// treinos
 import Afromix from '../src/assets/img/workouts/afromix.jpeg'
 import Funcional from '../src/assets/img/workouts/funcional.jpeg'
 import Jump from '../src/assets/img/workouts/jump.jpeg'
 import Muaythai from '../src/assets/img/workouts/muaythai.jpeg'
 import Musculacao from '../src/assets/img/workouts/musculacao.jpeg'
 
-
-import je from '../src/assets/img/community/je.jpg';
-import erika from '../src/assets/img/community/erika.jpg';
+// equipe
+import je from '../src/assets/img/community/je.jpeg';
+import erika from '../src/assets/img/community/erika.jpeg';
 import rico from '../src/assets/img/community/rico.jpeg';
 import diogo from '../src/assets/img/community/diogo.jpeg';
 import diego from '../src/assets/img/community/diego.jpeg';
 
+// ambiente
+import img1 from '../src/assets/img/environment/1.jpeg'
+import img2 from '../src/assets/img/environment/2.jpeg'
+import img3 from '../src/assets/img/environment/3.jpeg'
+import img4 from '../src/assets/img/environment/4.jpeg'
+import img5 from '../src/assets/img/environment/5.jpeg'
+import img6 from '../src/assets/img/environment/6.jpeg'
+import img7 from '../src/assets/img/environment/7.jpeg'
+import img8 from '../src/assets/img/environment/8.jpeg'
+import img9 from '../src/assets/img/environment/9.jpeg'
+import img10 from '../src/assets/img/environment/10.jpeg'
+import img11 from '../src/assets/img/environment/11.jpeg'
 
 
 // icons
@@ -168,6 +181,80 @@ export const community = {
   ],
 };
 
+export const environment = {
+  icon: CommunityIcn,
+  title: 'Ambiente Hope',
+  testimonials: [
+    {
+      image: img1,
+      name: 'Descrição.',
+      message:
+        '',
+    },
+    {
+      image: img2,
+      name: 'Descrição.',
+      message:
+        '”',
+    },
+    {
+      image: img3,
+      name: 'The Box.',
+      message:
+        '',
+    },
+    {
+      image: img4,
+      name: 'Suplementos.',
+      message:
+        '',
+    },
+    {
+      image: img5,
+      name: 'The Box.',
+      message:
+        '',
+    },
+    {
+      image: img6,
+      name: 'The Box.',
+      message:
+        '',
+    },
+    {
+      image: img7,
+      name: 'Descrição.',
+      message:
+        '',
+    },
+    {
+      image: img8,
+      name: 'Descrição.',
+      message:
+        '',
+    },
+    {
+      image: img9,
+      name: 'Descrição.',
+      message:
+        '',
+    },
+    {
+      image: img10,
+      name: 'Descrição.',
+      message:
+        '',
+    },
+    {
+      image: img11,
+      name: 'Descrição.',
+      message:
+        '',
+    },
+    
+  ],
+};
+
 export const join = {
   image: joinImg,
   title: 'Wanna join & have fun?',
@@ -233,9 +320,6 @@ export const faq = {
     },
   ],
 };
-
-
-
 
 
 export const footer = {

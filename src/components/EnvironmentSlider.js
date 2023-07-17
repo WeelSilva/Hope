@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 
-const CommunitySlider = ({ testimonials }) => {
+const EnvironmentSlider = ({ testimonials }) => {
   return (
     <Swiper
       slidesPerView={3}
@@ -44,4 +44,4 @@ const CommunitySlider = ({ testimonials }) => {
   );
 };
 
-export default CommunitySlider;
+export default EnvironmentSlider;

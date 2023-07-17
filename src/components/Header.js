@@ -45,7 +45,7 @@ const Header = () => {
         <a  href='https://www.facebook.com/hope.fitnes.9' target='blank'>
           <ion-icon name="logo-facebook" ></ion-icon>
         </a>
-        <a  href='https://api.whatsapp.com/send?phone=5511912602588' target='blank'>
+        <a  href='https://api.whatsapp.com/send?phone=5511912602588&text=Olá,%20tudo%20bem?%20vim%20através%20do%20site%20e%20gostaria%20de%20mais%20informações' target='blank'>
           <ion-icon name="logo-whatsapp" ></ion-icon>
         </a>
         
