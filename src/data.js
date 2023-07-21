@@ -11,9 +11,9 @@ import Musculacao from '../src/assets/img/workouts/musculacao.jpeg'
 
 // equipe
 import je from '../src/assets/img/community/je.jpeg';
-import erika from '../src/assets/img/community/erika.jpeg';
+import erika from '../src/assets/img/community/erika.jpg';
 import rico from '../src/assets/img/community/rico.jpeg';
-import diogo from '../src/assets/img/community/diogo.jpeg';
+import diogo from '../src/assets/img/community/diogoo.jpeg';
 import diego from '../src/assets/img/community/diego.jpeg';
 
 // ambiente

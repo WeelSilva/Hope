@@ -5,7 +5,7 @@ import { banner } from '../data';
 
 const Banner = () => {
   // destructure banner data
-  const { titlePart1, titlePart2, subtitle } = banner;
+  const { titlePart1, titlePart2 } = banner;
   return (
     <section id="inicio" className='bg-neutral-500 h-[790px]'>
       <div className='container mx-auto h-full'>
