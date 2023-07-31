@@ -11,7 +11,7 @@ import Musculacao from '../src/assets/img/workouts/musculacao.jpeg'
 
 // equipe
 import je from '../src/assets/img/community/je.jpeg';
-import erika from '../src/assets/img/community/erika.jpg';
+import erika from '../src/assets/img/community/erika.jpeg';
 import rico from '../src/assets/img/community/rico.jpeg';
 import diogo from '../src/assets/img/community/diogoo.jpeg';
 import diego from '../src/assets/img/community/diego.jpeg';
@@ -187,67 +187,68 @@ export const environment = {
   testimonials: [
     {
       image: img1,
-      name: 'Descrição.',
+      name: 'Estação de treinos de Pernas',
       message:
         '',
     },
     {
       image: img2,
-      name: 'Descrição.',
+      name: 'Estação de treinos de Pernas.',
       message:
         '”',
     },
     {
-      image: img3,
-      name: 'The Box.',
+      image: img4,
+      name: 'GR Suplementos',
       message:
         '',
     },
     {
-      image: img4,
-      name: 'Suplementos.',
+      image: img3,
+      name: 'The Box',
       message:
         '',
-    },
+      },
+      
     {
       image: img5,
-      name: 'The Box.',
+      name: 'The Box',
       message:
         '',
     },
     {
       image: img6,
-      name: 'The Box.',
+      name: 'The Box',
       message:
         '',
     },
     {
       image: img7,
-      name: 'Descrição.',
+      name: 'Descrição',
       message:
         '',
     },
     {
       image: img8,
-      name: 'Descrição.',
+      name: 'Descrição',
       message:
         '',
     },
     {
       image: img9,
-      name: 'Descrição.',
+      name: 'Descrição',
       message:
         '',
     },
     {
       image: img10,
-      name: 'Descrição.',
+      name: 'Descrição',
       message:
         '',
     },
     {
       image: img11,
-      name: 'Descrição.',
+      name: 'Descrição',
       message:
         '',
     },

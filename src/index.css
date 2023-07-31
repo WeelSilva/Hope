@@ -5,6 +5,7 @@
 @layer base {
  html {
   scroll-behavior: smooth;
+  font-smoothing: antialiased;
  }
   body {
     @apply font-secondary text-neutral-400 bg-[#e5e5e5];
