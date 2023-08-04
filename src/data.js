@@ -187,68 +187,68 @@ export const environment = {
   testimonials: [
     {
       image: img1,
-      name: 'Estação de treinos de Pernas',
+      name: '',
       message:
         '',
     },
     {
       image: img2,
-      name: 'Estação de treinos de Pernas.',
+      name: '',
       message:
-        '”',
+        '',
     },
     {
       image: img4,
-      name: 'GR Suplementos',
+      name: '',
       message:
         '',
     },
     {
       image: img3,
-      name: 'The Box',
+      name: '',
       message:
         '',
       },
       
     {
       image: img5,
-      name: 'The Box',
+      name: '',
       message:
         '',
     },
     {
       image: img6,
-      name: 'The Box',
+      name: ' ',
       message:
         '',
     },
     {
       image: img7,
-      name: 'Descrição',
+      name: '',
       message:
         '',
     },
     {
       image: img8,
-      name: 'Descrição',
+      name: '',
       message:
         '',
     },
     {
       image: img9,
-      name: 'Descrição',
+      name: '',
       message:
         '',
     },
     {
       image: img10,
-      name: 'Descrição',
+      name: '',
       message:
         '',
     },
     {
       image: img11,
-      name: 'Descrição',
+      name: '',
       message:
         '',
     },
