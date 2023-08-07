@@ -19,9 +19,7 @@ import diego from '../src/assets/img/community/diego.jpeg';
 // ambiente
 import img1 from '../src/assets/img/environment/1.jpeg'
 import img2 from '../src/assets/img/environment/2.jpeg'
-import img3 from '../src/assets/img/environment/3.jpeg'
 import img4 from '../src/assets/img/environment/4.jpeg'
-import img5 from '../src/assets/img/environment/5.jpeg'
 import img6 from '../src/assets/img/environment/6.jpeg'
 import img7 from '../src/assets/img/environment/7.jpeg'
 import img8 from '../src/assets/img/environment/8.jpeg'
@@ -199,19 +197,6 @@ export const environment = {
     },
     {
       image: img4,
-      name: '',
-      message:
-        '',
-    },
-    {
-      image: img3,
-      name: '',
-      message:
-        '',
-      },
-      
-    {
-      image: img5,
       name: '',
       message:
         '',
