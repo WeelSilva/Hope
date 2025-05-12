@@ -103,36 +103,65 @@ export const pricing = {
   title: 'Planos e Convênios',
   plans: [
     {
-      name: 'A partir de',
-      price: '45,00',
+      name: 'Recorrente',
+      price: '74,99',
+      list: [
+        { name: 'Pagamento automatico todos os meses' },
+        { name: 'Sem necessidade de renovação manual' },
+        { name: 'App de Treino' },
+        { name: 'Avaliação Física' },
+      ],
+      delay: 600, // Mantém como o primeiro a animar ou ajusta se necessário
+    },
+    {
+      name: 'Mensal',
+      price: '79,99',
       list: [
         { name: 'Taxa de Matrícula' },
         { name: 'App de Treino' },
         { name: 'Avaliação Física' },
       ],
-      delay: 600,
+      delay: 800, // Ajustado
     },
     {
-      name: 'Convênios',
+      name: 'Trimestral',
+      price: '209,99',
+      list: [
+        { name: 'Taxa de Matrícula' },
+        { name: 'App de Treino' },
+        { name: 'Avaliação Física' },
+      ],
+      delay: 1000, // Ajustado
+    },
+    {
+      name: 'Semestral',
+      price: '399,99',
+      list: [
+        { name: 'Taxa de Matrícula' },
+        { name: 'App de Treino' },
+        { name: 'Avaliação Física' },
+      ],
+      delay: 1200, // Ajustado
+    },
+    {
+      name: 'Anual',
+      price: '749,99',
+      list: [
+        { name: 'Taxa de Matrícula' },
+        { name: 'App de Treino' },
+        { name: 'Avaliação Física' },
+      ],
+      delay: 1400, // Ajustado
+    },
+    {
+      name: 'Convênios', // Movido para o final
       price: '',
       list: [
         { name: 'Total Pass' },
         { name: 'Gympass' },
       ],
-      delay: 800,
+      delay: 1600, // Ajustado para ser o último
     },
-    // {
-    //   name: 'Elite',
-    //   price: '49',
-    //   list: [
-    //     { name: 'unlimited gym access' },
-    //     { name: 'all training programs' },
-    //     { name: 'free fitness consultation' },
-    //     { name: 'personal trainer' },
-    //     { name: '50% off drinks' },
-    //   ],
-    //   delay: 1000,
-    // },
   ],
 };
 

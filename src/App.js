@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 // import aos
 import Aos from 'aos';
@@ -19,10 +19,13 @@ import WhatsButton from './components/WhatsButton';
 
 const App = () => {
   // aos initialization
-  Aos.init({
-    duration: 2000,
-    delay: 150,
-  });
+  useEffect(() => {
+    Aos.init({
+      duration: 2500,
+      delay: 400,
+    });
+  }, []); // Adicionado array de dependências vazio
+
   return (
     <div className='max-w-[1440px] mx-auto bg-page overflow-hidden relative '>
       <Header />
