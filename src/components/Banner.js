@@ -28,8 +28,7 @@ const Banner = () => {
             </p>
             
           
-          </div>
-          {/* image */}
+          </div>          {/* image */}
           <div
             className='bg-purple-50 w-full h-full bg-banner bg-cover bg-right lg:bg-center bg-no-repeat flex-1'
             data-aos='fade-right'

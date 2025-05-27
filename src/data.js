@@ -3,23 +3,36 @@ import LogoHope from '../src/assets/img/header/hope.png'
 import joinImg from '../src/assets/img/join/woman.png'
 
 // treinos
-import Afromix from '../src/assets/img/workouts/afromix.jpeg'
 import Funcional from '../src/assets/img/workouts/funcional.jpeg'
-import Jump from '../src/assets/img/workouts/jump.jpeg'
-import Muaythai from '../src/assets/img/workouts/muaythai.jpeg'
 import Musculacao from '../src/assets/img/workouts/musculacao.jpeg'
+
+// Modalidades removidas (podem ser adicionadas novamente no futuro):
+// import Afromix from '../src/assets/img/workouts/afromix.jpeg'
+// import Jump from '../src/assets/img/workouts/jump.jpeg'
+// import Muaythai from '../src/assets/img/workouts/muaythai.jpeg'
+
+// Para adicionar novas modalidades:
+// 1. Adicione a importação da imagem aqui
+// 2. Adicione o objeto no array 'programs' abaixo
 
 // equipe
 import je from '../src/assets/img/community/je.jpeg';
-import erika from '../src/assets/img/community/erika.jpeg';
 import rico from '../src/assets/img/community/rico.jpeg';
 import diogo from '../src/assets/img/community/diogoo.jpeg';
 import diego from '../src/assets/img/community/diego.jpeg';
 
+// Personal removida:
+// import erika from '../src/assets/img/community/erika.jpeg';
+
+// Para adicionar novos funcionários:
+// 1. Adicione a foto na pasta src/assets/img/community/
+// 2. Importe a imagem aqui: import novoFuncionario from '../src/assets/img/community/novo-funcionario.jpeg';
+// 3. Adicione o objeto no array 'testimonials' da seção 'community' abaixo
+
 // ambiente
 import img1 from '../src/assets/img/environment/1.jpeg'
 import img2 from '../src/assets/img/environment/2.jpeg'
-import img4 from '../src/assets/img/environment/4.jpeg'
+// import img4 from '../src/assets/img/environment/4.jpeg' // Removido - foto 4
 import img6 from '../src/assets/img/environment/6.jpeg'
 import img7 from '../src/assets/img/environment/7.jpeg'
 import img8 from '../src/assets/img/environment/8.jpeg'
@@ -63,7 +76,9 @@ export const about = {
   icon: UsersIcn,
   title: 'Bem-vindo à Academia Hope!',
   subtitle1:
-    'Nossa academia é o lugar perfeito para alcançar seus objetivos de condicionamento físico e saúde. Com equipamentos modernos e uma equipe qualificada, oferecemos treinamento personalizado e uma variedade de aulas de grupo emocionantes, como Jump, Musculação, Afromix, Funcional e Muay Thai  Seja qual for o seu nível de experiência, estamos aqui para ajudá-lo a se superar e se divertir enquanto alcança seus resultados desejados.',
+    'Nossa academia é o lugar perfeito para alcançar seus objetivos de condicionamento físico e saúde. Com equipamentos modernos e uma equipe qualificada, oferecemos treinamento personalizado e uma variedade de aulas de grupo emocionantes, como Musculação e Funcional. Seja qual for o seu nível de experiência, estamos aqui para ajudá-lo a se superar e se divertir enquanto alcança seus resultados desejados.',
+    // Texto original mencionava: Jump, Musculação, Afromix, Funcional e Muay Thai
+    // Atualizado para mostrar apenas as modalidades ativas
   subtitle2:
     'Visite-nos hoje mesmo e faça parte da comunidade Hope. Transforme seus objetivos em realidade e descubra uma nova versão de si mesmo!',
   subtitle3: 
@@ -83,18 +98,25 @@ export const workouts = {
       image: Funcional,
       name: 'Funcional',
     },
-    {
-      image: Afromix,
-      name: 'Afromix',
-    },
-    {
-      image: Jump,
-      name: 'Jump',
-    },
-    {
-      image: Muaythai,
-      name: 'Muay thai',
-    },
+    // Modalidades removidas temporariamente:
+    // {
+    //   image: Afromix,
+    //   name: 'Afromix',
+    // },
+    // {
+    //   image: Jump,
+    //   name: 'Jump',
+    // },
+    // {
+    //   image: Muaythai,
+    //   name: 'Muay thai',
+    // },
+    
+    // Para adicionar nova modalidade, descomente e edite:
+    // {
+    //   image: NovaModalidadeImg, // Importe a imagem no topo do arquivo
+    //   name: 'Nome da Nova Modalidade',
+    // },
   ],
 };
 
@@ -176,12 +198,6 @@ export const community = {
         '',
     },
     {
-      image: erika,
-      name: 'Erika - personal trainer.',
-      message:
-        '.”',
-    },
-    {
       image: rico,
       name: 'Ricardo - personal trainer.',
       message:
@@ -199,12 +215,23 @@ export const community = {
       message:
         '',
     },
+    
+    // Personal removida da equipe:
     // {
-    //   image: CommunityImg4,
-    //   name: 'Anne R.',
+    //   image: erika,
+    //   name: 'Erika - personal trainer.',
     //   message:
-    //     '“Love these workouts! Trainers are knowledgeable and motivating. Gymme is wonderful!”',
+    //     '."',
     // },
+    
+    // Para adicionar novo funcionário, descomente e edite:
+    // {
+    //   image: novoFuncionarioImg, // Importe a imagem no topo do arquivo
+    //   name: 'Nome do Funcionário - cargo.',
+    //   message: '', // Pode adicionar uma mensagem se desejar
+    // },
+    
+    // ...existing code...
   ],
 };
 
@@ -224,12 +251,7 @@ export const environment = {
       message:
         '',
     },
-    {
-      image: img4,
-      name: '',
-      message:
-        '',
-    },
+    // Foto 4 removida
     {
       image: img6,
       name: ' ',
